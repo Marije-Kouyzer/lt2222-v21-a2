@@ -5,6 +5,7 @@ Assignment 2 from the course LT2222 in the University of Gothenburg's winter 202
 Your name: Marije Kouyzer
 
 *Answer all questions in the notebook here.  You should also write whatever high-level documentation you feel you need to here.*
+
 Part 1: I return the data as a list of tuples.
 
 Part 2: I use just the plain words as features. If the named entity is near the end of the sentence one or multiple end symbols will be feautures, depending on how many words are after the named entity in the sentence still. If it is near the start of the sentence, the same is true with start symbols. This way there are always 10 features, 5 from before the named entity and 5 from after the named entity.
